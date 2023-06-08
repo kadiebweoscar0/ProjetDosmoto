@@ -1,0 +1,47 @@
+:root{
+    --texte-bold-- : bold;
+    --title-color-- : white;
+
+}
+
+main{
+    padding: 7px;
+    font-family: sans-serif;
+}
+
+strong{
+    color: blue;
+    font-weight: var(--texte-bold--);
+    font-family: Helvetica;
+
+}
+
+h1{
+    background-image: url("./image/imagetitre.webp");
+    font-size: 100px;
+    font-weight: var(--texte-bold--);
+    color: khaki;
+    text-align: center;
+}
+
+.contenair{
+    font-size: 32px;
+    font-family: helvetica;
+    font-weight: var(--texte-bold--);
+    
+}
+
+.section1 h2{
+    background-color: mediumspringgreen;
+    color: var(--title-color--);
+}
+
+.section2 h2{
+    background-color: lightcoral;
+    color: var(--title-color--);
+}
+
+.section3 h2{
+    background-color: skyblue;
+    color: var(--title-color--);
+}
